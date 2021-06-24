@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4513BB8226809F9C000C5DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BB8126809F9C000C5DDC /* AppDelegate.swift */; };
+		4513BB8426809F9C000C5DDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BB8326809F9C000C5DDC /* SceneDelegate.swift */; };
+		4513BB8926809F9C000C5DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4513BB8726809F9C000C5DDC /* Main.storyboard */; };
+		4513BB8C26809F9C000C5DDC /* Wysa_ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4513BB8A26809F9C000C5DDC /* Wysa_ToDoList.xcdatamodeld */; };
+		4513BB8E26809F9E000C5DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4513BB8D26809F9E000C5DDC /* Assets.xcassets */; };
+		4513BB9126809F9E000C5DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4513BB8F26809F9E000C5DDC /* LaunchScreen.storyboard */; };
+		4513BB9C26809F9E000C5DDC /* Wysa_ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BB9B26809F9E000C5DDC /* Wysa_ToDoListTests.swift */; };
+		4513BBA726809F9E000C5DDC /* Wysa_ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BBA626809F9E000C5DDC /* Wysa_ToDoListUITests.swift */; };
+		4513BBBB26809FD5000C5DDC /* RecordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BBBA26809FD5000C5DDC /* RecordListViewController.swift */; };
+		4513BBC42680A05C000C5DDC /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BBC22680A05C000C5DDC /* RecordTableViewCell.swift */; };
+		4513BBC52680A05C000C5DDC /* RecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4513BBC32680A05C000C5DDC /* RecordTableViewCell.xib */; };
+		4513BBCE2680B16A000C5DDC /* ListRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BBCC2680B16A000C5DDC /* ListRecord+CoreDataClass.swift */; };
+		4513BBCF2680B16A000C5DDC /* ListRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BBCD2680B16A000C5DDC /* ListRecord+CoreDataProperties.swift */; };
+		4513BBD42680B5AA000C5DDC /* AddRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BBD32680B5AA000C5DDC /* AddRecordsViewController.swift */; };
+		4513BC3F2680E399000C5DDC /* RecordListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BC3E2680E399000C5DDC /* RecordListViewModel.swift */; };
+		4513BC4C2680FEAF000C5DDC /* AddRecordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BC4B2680FEAF000C5DDC /* AddRecordsViewModel.swift */; };
+		4513BC512680FF19000C5DDC /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513BC502680FF19000C5DDC /* LocalizedString.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4513BB9826809F9E000C5DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4513BB7626809F9C000C5DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4513BB7D26809F9C000C5DDC;
+			remoteInfo = "Wysa-ToDoList";
+		};
+		4513BBA326809F9E000C5DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4513BB7626809F9C000C5DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4513BB7D26809F9C000C5DDC;
+			remoteInfo = "Wysa-ToDoList";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4513BB7E26809F9C000C5DDC /* Wysa-ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wysa-ToDoList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4513BB8126809F9C000C5DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4513BB8326809F9C000C5DDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4513BB8826809F9C000C5DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4513BB8B26809F9C000C5DDC /* Wysa_ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wysa_ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		4513BB8D26809F9E000C5DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4513BB9026809F9E000C5DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4513BB9226809F9E000C5DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4513BB9726809F9E000C5DDC /* Wysa-ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wysa-ToDoListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4513BB9B26809F9E000C5DDC /* Wysa_ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wysa_ToDoListTests.swift; sourceTree = "<group>"; };
+		4513BB9D26809F9E000C5DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4513BBA226809F9E000C5DDC /* Wysa-ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wysa-ToDoListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4513BBA626809F9E000C5DDC /* Wysa_ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wysa_ToDoListUITests.swift; sourceTree = "<group>"; };
+		4513BBA826809F9E000C5DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4513BBBA26809FD5000C5DDC /* RecordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListViewController.swift; sourceTree = "<group>"; };
+		4513BBC22680A05C000C5DDC /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		4513BBC32680A05C000C5DDC /* RecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordTableViewCell.xib; sourceTree = "<group>"; };
+		4513BBCC2680B16A000C5DDC /* ListRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4513BBCD2680B16A000C5DDC /* ListRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4513BBD32680B5AA000C5DDC /* AddRecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordsViewController.swift; sourceTree = "<group>"; };
+		4513BC3E2680E399000C5DDC /* RecordListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListViewModel.swift; sourceTree = "<group>"; };
+		4513BC4B2680FEAF000C5DDC /* AddRecordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordsViewModel.swift; sourceTree = "<group>"; };
+		4513BC502680FF19000C5DDC /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		4513BC88268109F9000C5DDC /* Wysa-ToDoList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Wysa-ToDoList.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4513BB7B26809F9C000C5DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4513BB9426809F9E000C5DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4513BB9F26809F9E000C5DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4513BB7526809F9C000C5DDC = {
+			isa = PBXGroup;
+			children = (
+				4513BB8026809F9C000C5DDC /* Wysa-ToDoList */,
+				4513BB9A26809F9E000C5DDC /* Wysa-ToDoListTests */,
+				4513BBA526809F9E000C5DDC /* Wysa-ToDoListUITests */,
+				4513BB7F26809F9C000C5DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4513BB7F26809F9C000C5DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4513BB7E26809F9C000C5DDC /* Wysa-ToDoList.app */,
+				4513BB9726809F9E000C5DDC /* Wysa-ToDoListTests.xctest */,
+				4513BBA226809F9E000C5DDC /* Wysa-ToDoListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4513BB8026809F9C000C5DDC /* Wysa-ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				4513BC88268109F9000C5DDC /* Wysa-ToDoList.entitlements */,
+				4513BC7E2680FF7F000C5DDC /* Helper */,
+				4513BC332680E2EB000C5DDC /* Core Data Module */,
+				4513BBBF26809FE1000C5DDC /* Records Listing */,
+				4513BC372680E301000C5DDC /* Delegates */,
+				4513BC3B2680E31B000C5DDC /* Storyboards */,
+				4513BB8D26809F9E000C5DDC /* Assets.xcassets */,
+				4513BB9226809F9E000C5DDC /* Info.plist */,
+			);
+			path = "Wysa-ToDoList";
+			sourceTree = "<group>";
+		};
+		4513BB9A26809F9E000C5DDC /* Wysa-ToDoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				4513BB9B26809F9E000C5DDC /* Wysa_ToDoListTests.swift */,
+				4513BB9D26809F9E000C5DDC /* Info.plist */,
+			);
+			path = "Wysa-ToDoListTests";
+			sourceTree = "<group>";
+		};
+		4513BBA526809F9E000C5DDC /* Wysa-ToDoListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4513BBA626809F9E000C5DDC /* Wysa_ToDoListUITests.swift */,
+				4513BBA826809F9E000C5DDC /* Info.plist */,
+			);
+			path = "Wysa-ToDoListUITests";
+			sourceTree = "<group>";
+		};
+		4513BBBF26809FE1000C5DDC /* Records Listing */ = {
+			isa = PBXGroup;
+			children = (
+				4513BC3D2680E336000C5DDC /* Model */,
+				4513BC3C2680E32F000C5DDC /* ViewModel */,
+				4513BBC02680A038000C5DDC /* View */,
+			);
+			path = "Records Listing";
+			sourceTree = "<group>";
+		};
+		4513BBC02680A038000C5DDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4513BBC12680A042000C5DDC /* TableView Cells */,
+				4513BBBA26809FD5000C5DDC /* RecordListViewController.swift */,
+				4513BBD32680B5AA000C5DDC /* AddRecordsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4513BBC12680A042000C5DDC /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4513BBC22680A05C000C5DDC /* RecordTableViewCell.swift */,
+				4513BBC32680A05C000C5DDC /* RecordTableViewCell.xib */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		4513BC332680E2EB000C5DDC /* Core Data Module */ = {
+			isa = PBXGroup;
+			children = (
+				4513BB8A26809F9C000C5DDC /* Wysa_ToDoList.xcdatamodeld */,
+				4513BBCC2680B16A000C5DDC /* ListRecord+CoreDataClass.swift */,
+				4513BBCD2680B16A000C5DDC /* ListRecord+CoreDataProperties.swift */,
+			);
+			path = "Core Data Module";
+			sourceTree = "<group>";
+		};
+		4513BC372680E301000C5DDC /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4513BB8126809F9C000C5DDC /* AppDelegate.swift */,
+				4513BB8326809F9C000C5DDC /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4513BC3B2680E31B000C5DDC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4513BB8726809F9C000C5DDC /* Main.storyboard */,
+				4513BB8F26809F9E000C5DDC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4513BC3C2680E32F000C5DDC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4513BC3E2680E399000C5DDC /* RecordListViewModel.swift */,
+				4513BC4B2680FEAF000C5DDC /* AddRecordsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4513BC3D2680E336000C5DDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4513BC7E2680FF7F000C5DDC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4513BC502680FF19000C5DDC /* LocalizedString.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4513BB7D26809F9C000C5DDC /* Wysa-ToDoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4513BBAB26809F9E000C5DDC /* Build configuration list for PBXNativeTarget "Wysa-ToDoList" */;
+			buildPhases = (
+				4513BB7A26809F9C000C5DDC /* Sources */,
+				4513BB7B26809F9C000C5DDC /* Frameworks */,
+				4513BB7C26809F9C000C5DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wysa-ToDoList";
+			productName = "Wysa-ToDoList";
+			productReference = 4513BB7E26809F9C000C5DDC /* Wysa-ToDoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4513BB9626809F9E000C5DDC /* Wysa-ToDoListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4513BBAE26809F9E000C5DDC /* Build configuration list for PBXNativeTarget "Wysa-ToDoListTests" */;
+			buildPhases = (
+				4513BB9326809F9E000C5DDC /* Sources */,
+				4513BB9426809F9E000C5DDC /* Frameworks */,
+				4513BB9526809F9E000C5DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4513BB9926809F9E000C5DDC /* PBXTargetDependency */,
+			);
+			name = "Wysa-ToDoListTests";
+			productName = "Wysa-ToDoListTests";
+			productReference = 4513BB9726809F9E000C5DDC /* Wysa-ToDoListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4513BBA126809F9E000C5DDC /* Wysa-ToDoListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4513BBB126809F9E000C5DDC /* Build configuration list for PBXNativeTarget "Wysa-ToDoListUITests" */;
+			buildPhases = (
+				4513BB9E26809F9E000C5DDC /* Sources */,
+				4513BB9F26809F9E000C5DDC /* Frameworks */,
+				4513BBA026809F9E000C5DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4513BBA426809F9E000C5DDC /* PBXTargetDependency */,
+			);
+			name = "Wysa-ToDoListUITests";
+			productName = "Wysa-ToDoListUITests";
+			productReference = 4513BBA226809F9E000C5DDC /* Wysa-ToDoListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4513BB7626809F9C000C5DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4513BB7D26809F9C000C5DDC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4513BB9626809F9E000C5DDC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4513BB7D26809F9C000C5DDC;
+					};
+					4513BBA126809F9E000C5DDC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4513BB7D26809F9C000C5DDC;
+					};
+				};
+			};
+			buildConfigurationList = 4513BB7926809F9C000C5DDC /* Build configuration list for PBXProject "Wysa-ToDoList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4513BB7526809F9C000C5DDC;
+			productRefGroup = 4513BB7F26809F9C000C5DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4513BB7D26809F9C000C5DDC /* Wysa-ToDoList */,
+				4513BB9626809F9E000C5DDC /* Wysa-ToDoListTests */,
+				4513BBA126809F9E000C5DDC /* Wysa-ToDoListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4513BB7C26809F9C000C5DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4513BB9126809F9E000C5DDC /* LaunchScreen.storyboard in Resources */,
+				4513BB8E26809F9E000C5DDC /* Assets.xcassets in Resources */,
+				4513BBC52680A05C000C5DDC /* RecordTableViewCell.xib in Resources */,
+				4513BB8926809F9C000C5DDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4513BB9526809F9E000C5DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4513BBA026809F9E000C5DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4513BB7A26809F9C000C5DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4513BBCF2680B16A000C5DDC /* ListRecord+CoreDataProperties.swift in Sources */,
+				4513BB8226809F9C000C5DDC /* AppDelegate.swift in Sources */,
+				4513BC512680FF19000C5DDC /* LocalizedString.swift in Sources */,
+				4513BB8426809F9C000C5DDC /* SceneDelegate.swift in Sources */,
+				4513BBD42680B5AA000C5DDC /* AddRecordsViewController.swift in Sources */,
+				4513BC4C2680FEAF000C5DDC /* AddRecordsViewModel.swift in Sources */,
+				4513BBCE2680B16A000C5DDC /* ListRecord+CoreDataClass.swift in Sources */,
+				4513BB8C26809F9C000C5DDC /* Wysa_ToDoList.xcdatamodeld in Sources */,
+				4513BBC42680A05C000C5DDC /* RecordTableViewCell.swift in Sources */,
+				4513BC3F2680E399000C5DDC /* RecordListViewModel.swift in Sources */,
+				4513BBBB26809FD5000C5DDC /* RecordListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4513BB9326809F9E000C5DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4513BB9C26809F9E000C5DDC /* Wysa_ToDoListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4513BB9E26809F9E000C5DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4513BBA726809F9E000C5DDC /* Wysa_ToDoListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4513BB9926809F9E000C5DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4513BB7D26809F9C000C5DDC /* Wysa-ToDoList */;
+			targetProxy = 4513BB9826809F9E000C5DDC /* PBXContainerItemProxy */;
+		};
+		4513BBA426809F9E000C5DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4513BB7D26809F9C000C5DDC /* Wysa-ToDoList */;
+			targetProxy = 4513BBA326809F9E000C5DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4513BB8726809F9C000C5DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4513BB8826809F9C000C5DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4513BB8F26809F9E000C5DDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4513BB9026809F9E000C5DDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4513BBA926809F9E000C5DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4513BBAA26809F9E000C5DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4513BBAC26809F9E000C5DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Wysa-ToDoList/Wysa-ToDoList.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wysa-ToDoList/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Wysa-ToDoList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4513BBAD26809F9E000C5DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Wysa-ToDoList/Wysa-ToDoList.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wysa-ToDoList/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Wysa-ToDoList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4513BBAF26809F9E000C5DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wysa-ToDoListTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Wysa-ToDoListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wysa-ToDoList.app/Wysa-ToDoList";
+			};
+			name = Debug;
+		};
+		4513BBB026809F9E000C5DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wysa-ToDoListTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Wysa-ToDoListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wysa-ToDoList.app/Wysa-ToDoList";
+			};
+			name = Release;
+		};
+		4513BBB226809F9E000C5DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wysa-ToDoListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Wysa-ToDoListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wysa-ToDoList";
+			};
+			name = Debug;
+		};
+		4513BBB326809F9E000C5DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wysa-ToDoListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Wysa-ToDoListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wysa-ToDoList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4513BB7926809F9C000C5DDC /* Build configuration list for PBXProject "Wysa-ToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4513BBA926809F9E000C5DDC /* Debug */,
+				4513BBAA26809F9E000C5DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4513BBAB26809F9E000C5DDC /* Build configuration list for PBXNativeTarget "Wysa-ToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4513BBAC26809F9E000C5DDC /* Debug */,
+				4513BBAD26809F9E000C5DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4513BBAE26809F9E000C5DDC /* Build configuration list for PBXNativeTarget "Wysa-ToDoListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4513BBAF26809F9E000C5DDC /* Debug */,
+				4513BBB026809F9E000C5DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4513BBB126809F9E000C5DDC /* Build configuration list for PBXNativeTarget "Wysa-ToDoListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4513BBB226809F9E000C5DDC /* Debug */,
+				4513BBB326809F9E000C5DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4513BB8A26809F9C000C5DDC /* Wysa_ToDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4513BB8B26809F9C000C5DDC /* Wysa_ToDoList.xcdatamodel */,
+			);
+			currentVersion = 4513BB8B26809F9C000C5DDC /* Wysa_ToDoList.xcdatamodel */;
+			path = Wysa_ToDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4513BB7626809F9C000C5DDC /* Project object */;
+}
